@@ -53,6 +53,7 @@ public class GudMod {
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItem.BISMUTH);
+            event.accept(ModItem.RAW_BISMUTH);
         }
     }
 
