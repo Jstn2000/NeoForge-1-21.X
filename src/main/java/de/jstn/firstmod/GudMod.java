@@ -54,6 +54,7 @@ public class GudMod {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItem.BISMUTH);
             event.accept(ModItem.RAW_BISMUTH);
+            event.accept(ModItem.RUBY);
         }
     }
 
