@@ -8,7 +8,7 @@ import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
 
-public class ModItem {
+public class ModItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(GudMod.MOD_ID);
 
     public static final DeferredItem<Item> BISMUTH = ITEMS.register("bismuth", () -> new Item(new Item.Properties()));
