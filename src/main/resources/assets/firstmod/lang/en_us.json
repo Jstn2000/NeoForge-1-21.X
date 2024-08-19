@@ -2,10 +2,18 @@
   "item.firstmod.bismuth" : "Bismuth",
   "item.firstmod.raw_bismuth" : "Raw Bismuth",
   "item.firstmod.ruby" : "Flawless Ruby",
+  "item.firstmod.saphire" : "Flawless Saphire",
+  "item.firstmod.topaz" : "Flawless Topaz",
 
   "block.firstmod.bismuth_block": "Block of Bismuth",
+  "block.firstmod.ruby_block": "Block of Ruby",
+  "block.firstmod.saphire_block": "Block of Saphire",
+  "block.firstmod.topaz_block": "Block of Topaz",
   "block.firstmod.bismuth_ore": "Bismuth Ore",
+  "block.firstmod.ruby_ore": "Ruby Ore",
+  "block.firstmod.saphire_ore": "Saphire Ore",
+  "block.firstmod.topaz_ore": "Topaz Ore",
 
-  "creativetab.firstmod.bismuth_items": "Bismuth Items",
-  "creativetab.firstmod.bismuth_blocks": "Bismuth Blocks"
+  "creativetab.firstmod.bismuth_items": "Exotic Materials",
+  "creativetab.firstmod.bismuth_blocks": "Exotic Material Blocks"
 }

@@ -23,11 +23,41 @@ public class ModBlocks {
             .strength(4f)
             .requiresCorrectToolForDrops()
             .sound(SoundType.AMETHYST)));
+    public static final DeferredBlock<Block> RUBY_BLOCK = registerBlock("ruby_block", () -> new Block(
+            BlockBehaviour.Properties.of()
+            .strength(4f)
+            .requiresCorrectToolForDrops()
+            .sound(SoundType.AMETHYST)));
+    public static final DeferredBlock<Block> SAPHIRE_BLOCK = registerBlock("saphire_block", () -> new Block(
+            BlockBehaviour.Properties.of()
+            .strength(4f)
+            .requiresCorrectToolForDrops()
+            .sound(SoundType.AMETHYST)));
+    public static final DeferredBlock<Block> TOPAZ_BLOCK = registerBlock("topaz_block", () -> new Block(
+            BlockBehaviour.Properties.of()
+            .strength(4f)
+            .requiresCorrectToolForDrops()
+            .sound(SoundType.AMETHYST)));
     public static final DeferredBlock<Block> BISMUTH_ORE = registerBlock("bismuth_ore", () -> new DropExperienceBlock(UniformInt.of(2, 4),
             BlockBehaviour.Properties.of()
             .strength(3f)
             .requiresCorrectToolForDrops()
             .sound(SoundType.STONE)));
+    public static final DeferredBlock<Block> RUBY_ORE = registerBlock("ruby_ore", () -> new DropExperienceBlock(UniformInt.of(2, 4),
+            BlockBehaviour.Properties.of()
+            .strength(4f)
+            .requiresCorrectToolForDrops()
+            .sound(SoundType.STONE)));
+    public static final DeferredBlock<Block> SAPHIRE_ORE = registerBlock("saphire_ore", () -> new DropExperienceBlock(UniformInt.of(2, 4),
+            BlockBehaviour.Properties.of()
+            .strength(4f)
+            .requiresCorrectToolForDrops()
+            .sound(SoundType.STONE)));
+    public static final DeferredBlock<Block> TOPAZ_ORE = registerBlock("topaz_ore", () -> new DropExperienceBlock(UniformInt.of(2, 4),
+            BlockBehaviour.Properties.of()
+            .strength(4f)
+            .requiresCorrectToolForDrops()
+             .sound(SoundType.STONE)));
 
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {

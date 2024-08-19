@@ -21,6 +21,9 @@ public class ModCreativeModeTabs {
             .displayItems((itemDisplayParameters, output) -> {
                 output.accept(ModItems.BISMUTH);
                 output.accept(ModItems.RAW_BISMUTH);
+                output.accept(ModItems.RUBY);
+                output.accept(ModItems.SAPHIRE);
+                output.accept(ModItems.TOPAZ);
             } )
             .build());
 
@@ -30,7 +33,13 @@ public class ModCreativeModeTabs {
             .title(Component.translatable("creativetab.firstmod.bismuth_blocks"))
             .displayItems((itemDisplayParameters, output) -> {
                 output.accept(ModBlocks.BISMUTH_BLOCK);
+                output.accept(ModBlocks.RUBY_BLOCK);
+                output.accept(ModBlocks.SAPHIRE_BLOCK);
+                output.accept(ModBlocks.TOPAZ_BLOCK);
                 output.accept(ModBlocks.BISMUTH_ORE);
+                output.accept(ModBlocks.RUBY_ORE);
+                output.accept(ModBlocks.SAPHIRE_ORE);
+                output.accept(ModBlocks.TOPAZ_ORE);
             } )
             .build());
 
