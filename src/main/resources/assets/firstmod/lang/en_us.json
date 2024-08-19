@@ -4,5 +4,8 @@
   "item.firstmod.ruby" : "Flawless Ruby",
 
   "block.firstmod.bismuth_block": "Block of Bismuth",
-  "block.firstmod.bismuth_ore": "Bismuth Ore"
+  "block.firstmod.bismuth_ore": "Bismuth Ore",
+
+  "creativetab.firstmod.bismuth_items": "Bismuth Items",
+  "creativetab.firstmod.bismuth_blocks": "Bismuth Blocks"
 }
