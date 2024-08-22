@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "firstmod:bismuth_block",
+    "firstmod:bismuth_ore",
+    "firstmod:ruby_block",
+    "firstmod:ruby_ore",
+    "firstmod:saphire_block",
+    "firstmod:saphire_ore",
+    "firstmod:topaz_block",
+    "firstmod:topaz_ore"
+  ]
+}
