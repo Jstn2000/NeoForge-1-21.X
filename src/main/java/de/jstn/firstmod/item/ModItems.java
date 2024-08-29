@@ -2,6 +2,7 @@ package de.jstn.firstmod.item;
 
 
 import de.jstn.firstmod.GudMod;
+import de.jstn.firstmod.item.custom.ChiselItem;
 import net.minecraft.world.item.Item;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
@@ -16,6 +17,7 @@ public class ModItems {
     public static final DeferredItem<Item> RUBY = ITEMS.register("ruby", () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> SAPHIRE = ITEMS.register( "saphire" , () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> TOPAZ = ITEMS.register( "topaz", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> CHISEL = ITEMS.register( "chisel", () -> new ChiselItem(new Item.Properties().durability(64)));
 
     public static void register(IEventBus eventbus) {
         ITEMS.register(eventbus);

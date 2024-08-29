@@ -4,11 +4,13 @@
   "item.firstmod.ruby" : "Flawless Ruby",
   "item.firstmod.saphire" : "Flawless Saphire",
   "item.firstmod.topaz" : "Flawless Topaz",
+  "item.firstmod.chisel": "Chisel",
 
   "block.firstmod.bismuth_block": "Block of Bismuth",
   "block.firstmod.ruby_block": "Block of Ruby",
   "block.firstmod.saphire_block": "Block of Saphire",
   "block.firstmod.topaz_block": "Block of Topaz",
+  "block.firstmod.magic_block": "Magic Block",
   "block.firstmod.bismuth_ore": "Bismuth Ore",
   "block.firstmod.ruby_ore": "Ruby Ore",
   "block.firstmod.saphire_ore": "Saphire Ore",

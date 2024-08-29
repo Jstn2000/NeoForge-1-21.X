@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "firstmod:magic_block",
     "firstmod:bismuth_block",
     "firstmod:bismuth_ore",
     "firstmod:ruby_block",

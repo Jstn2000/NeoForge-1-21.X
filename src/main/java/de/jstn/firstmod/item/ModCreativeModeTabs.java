@@ -24,6 +24,7 @@ public class ModCreativeModeTabs {
                 output.accept(ModItems.RUBY);
                 output.accept(ModItems.SAPHIRE);
                 output.accept(ModItems.TOPAZ);
+                output.accept(ModItems.CHISEL);
             } )
             .build());
 
@@ -40,6 +41,7 @@ public class ModCreativeModeTabs {
                 output.accept(ModBlocks.RUBY_ORE);
                 output.accept(ModBlocks.SAPHIRE_ORE);
                 output.accept(ModBlocks.TOPAZ_ORE);
+                output.accept(ModBlocks.MAGIC_BLOCK);
             } )
             .build());
 
